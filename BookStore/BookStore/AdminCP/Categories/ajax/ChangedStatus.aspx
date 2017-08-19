@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ChangedStatus.aspx.cs" Inherits="BookStore.AdminCP.Categories.ajax.ChangedStatus" %>

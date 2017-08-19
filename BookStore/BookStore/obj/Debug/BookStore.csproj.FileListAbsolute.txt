@@ -1,0 +1,10 @@
+C:\Users\tuan\Desktop\seminar TK13.4\BookStore\BookStore\bin\BookStore.dll.config
+C:\Users\tuan\Desktop\seminar TK13.4\BookStore\BookStore\bin\BookStore.dll
+C:\Users\tuan\Desktop\seminar TK13.4\BookStore\BookStore\bin\BookStore.pdb
+C:\Users\tuan\Desktop\seminar TK13.4\BookStore\BookStore\obj\Debug\BookStore.csprojResolveAssemblyReference.cache
+C:\Users\tuan\Desktop\seminar TK13.4\BookStore\BookStore\obj\Debug\BookStore.dll
+C:\Users\tuan\Desktop\seminar TK13.4\BookStore\BookStore\obj\Debug\BookStore.pdb
+C:\Users\tuan\Desktop\seminar TK13.4\BookStore\BookStore\bin\BLL.dll
+C:\Users\tuan\Desktop\seminar TK13.4\BookStore\BookStore\bin\DAL.dll
+C:\Users\tuan\Desktop\seminar TK13.4\BookStore\BookStore\bin\BLL.pdb
+C:\Users\tuan\Desktop\seminar TK13.4\BookStore\BookStore\bin\DAL.pdb

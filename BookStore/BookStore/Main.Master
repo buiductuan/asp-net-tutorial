@@ -1,0 +1,104 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="BookStore.Main" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>The Book's Store | TuanBuiDev</title>
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/assets/css/style.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server" />
+    <style>
+        a:hover {
+            text-decoration: none;
+        }
+
+        .price {
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 20px;
+            color: #e1454f;
+        }
+
+        .list_book_viewed {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            border: 1px solid #ddd;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form id="frm_Main" runat="server">
+        <nav class="navbar navbar-fixed-top navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">Book Store</a>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#about">New Books</a></li>
+                        <li><a href="#contact">Most Books</a></li>
+                        <li><a href="#">Category</a></li>
+                    </ul>
+                </div>
+                <!-- /.nav-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+        <!-- /.navbar -->
+
+        <div class="container">
+            <div class="row row-offcanvas row-offcanvas-right">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+                <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item active">Danh mục sách</a>
+                        <asp:Repeater runat="server" ID="_rptListCate">
+                            <ItemTemplate>
+                                <a title="<%# Eval("Name") %>" href="/danh-muc-sach/<%# BLL.Tools.Tools.convertToUnSign(Eval("Name").ToString()) %>-<%# Eval("ID") %>" class="list-group-item"><%# Eval("Name") %></a>
+                            </ItemTemplate>
+                        </asp:Repeater>
+                    </div>
+                </div>
+                <!--/.sidebar-offcanvas-->
+            </div>
+            <!--/row-->
+            <hr />
+            <footer>
+                <p>&copy; 2017 Company, Inc.</p>
+            </footer>
+        </div>
+
+        <%--<div class="list_book_viewed">
+            <ul class="list-group">
+                <asp:Repeater runat="server" ID="_rptBookViewed">
+                    <ItemTemplate>
+                        <li class="list-group-item">
+                            <a href="#"><%# Eval("Name") %></a>
+                        </li>
+                    </ItemTemplate>
+                </asp:Repeater>
+            </ul>
+        </div>--%>
+
+        <script src="/assets/js/jquery-1.12.4.min.js"></script>
+        <script src="/assets/js/bootstrap.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('[data-toggle="offcanvas"]').click(function () {
+                    $('.row-offcanvas').toggleClass('active')
+                });
+            });
+        </script>
+        <asp:ContentPlaceHolder ID="Scripts" runat="server" />
+    </form>
+</body>
+</html>

@@ -1,0 +1,5 @@
+C:\Users\tuan\Desktop\seminar TK13.4\BookStore\DAL\bin\Release\DAL.dll.config
+C:\Users\tuan\Desktop\seminar TK13.4\BookStore\DAL\bin\Release\DAL.dll
+C:\Users\tuan\Desktop\seminar TK13.4\BookStore\DAL\bin\Release\DAL.pdb
+C:\Users\tuan\Desktop\seminar TK13.4\BookStore\DAL\obj\Release\DAL.dll
+C:\Users\tuan\Desktop\seminar TK13.4\BookStore\DAL\obj\Release\DAL.pdb

@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="getListID.aspx.cs" Inherits="BookStore.AdminCP.Categories.ajax.getListID" %>

@@ -1,0 +1,6 @@
+T:\Seminar\seminar TK13.4\ADO_NET\ADO_NET\bin\ADO_NET.dll.config
+T:\Seminar\seminar TK13.4\ADO_NET\ADO_NET\bin\ADO_NET.dll
+T:\Seminar\seminar TK13.4\ADO_NET\ADO_NET\bin\ADO_NET.pdb
+T:\Seminar\seminar TK13.4\ADO_NET\ADO_NET\obj\Debug\ADO_NET.csprojResolveAssemblyReference.cache
+T:\Seminar\seminar TK13.4\ADO_NET\ADO_NET\obj\Debug\ADO_NET.dll
+T:\Seminar\seminar TK13.4\ADO_NET\ADO_NET\obj\Debug\ADO_NET.pdb

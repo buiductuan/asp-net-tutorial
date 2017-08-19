@@ -1,0 +1,8 @@
+C:\Users\tuan\Desktop\FakerASP\FakerASP\bin\FakerASP.dll.config
+C:\Users\tuan\Desktop\FakerASP\FakerASP\bin\FakerASP.dll
+C:\Users\tuan\Desktop\FakerASP\FakerASP\bin\FakerASP.pdb
+C:\Users\tuan\Desktop\FakerASP\FakerASP\bin\Faker.NET4.dll
+C:\Users\tuan\Desktop\FakerASP\FakerASP\bin\de-DE\Faker.NET4.resources.dll
+C:\Users\tuan\Desktop\FakerASP\FakerASP\obj\Debug\FakerASP.csprojResolveAssemblyReference.cache
+C:\Users\tuan\Desktop\FakerASP\FakerASP\obj\Debug\FakerASP.dll
+C:\Users\tuan\Desktop\FakerASP\FakerASP\obj\Debug\FakerASP.pdb

@@ -1,0 +1,7 @@
+C:\Users\tuan\Desktop\seminar TK13.4\BookStore\BLL\bin\Release\BLL.dll
+C:\Users\tuan\Desktop\seminar TK13.4\BookStore\BLL\bin\Release\BLL.pdb
+C:\Users\tuan\Desktop\seminar TK13.4\BookStore\BLL\bin\Release\DAL.dll
+C:\Users\tuan\Desktop\seminar TK13.4\BookStore\BLL\bin\Release\DAL.pdb
+C:\Users\tuan\Desktop\seminar TK13.4\BookStore\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+C:\Users\tuan\Desktop\seminar TK13.4\BookStore\BLL\obj\Release\BLL.dll
+C:\Users\tuan\Desktop\seminar TK13.4\BookStore\BLL\obj\Release\BLL.pdb

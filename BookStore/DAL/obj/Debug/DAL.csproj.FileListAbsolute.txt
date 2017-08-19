@@ -1,0 +1,6 @@
+C:\Users\tuan\Desktop\seminar TK13.4\BookStore\DAL\bin\Debug\DAL.dll.config
+C:\Users\tuan\Desktop\seminar TK13.4\BookStore\DAL\bin\Debug\DAL.dll
+C:\Users\tuan\Desktop\seminar TK13.4\BookStore\DAL\bin\Debug\DAL.pdb
+C:\Users\tuan\Desktop\seminar TK13.4\BookStore\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\tuan\Desktop\seminar TK13.4\BookStore\DAL\obj\Debug\DAL.dll
+C:\Users\tuan\Desktop\seminar TK13.4\BookStore\DAL\obj\Debug\DAL.pdb
